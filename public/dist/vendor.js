@@ -35912,7 +35912,7 @@ var AppComponent = function () {
 		get: function get() {
 			return [new _core.Component({
 				selector: "my-app",
-				template: '<h1>My First Angular 2 App!!</h1><my-name></my-name><friends></friends><world-time [timeZones]="timeZones"></world-time>',
+				template: '<div class="container">\n' + '  <div class="jumbotron">\n' + '    <h1>My First Angular 2 App!!</h1>\n' + '    <h2>Angular & Bootstrap Demo</h2>\n' + '  </div>\n' + '  <div class="panel panel-primary">\n' + '    <div class="panel-heading">Name</div>\n' + '    <div class="panel-body">\n' + '      <h3><my-name></my-name></h3>\n' + '    </div>\n' + '    <div class="panel-heading">Friends List</div>\n' + '    <div class="panel-body">\n' + '      <h3><friends></friends></h3>\n' + '    </div>\n' + '    <div class="panel-heading">World time</div>\n' + '    <div class="panel-body">\n' + '      <h3><world-time [timeZones]="timeZones"></world-time></h3>\n' + '    </div>\n' + '  </div>\n' + '</div>',
 				directives: [_myname.MyNameComponent, _friendslist.FriendsListComponent, _worldTime.WorldTimeComponent]
 			})];
 		}
